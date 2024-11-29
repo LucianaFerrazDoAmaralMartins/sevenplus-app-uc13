@@ -93,10 +93,11 @@ const styles = StyleSheet.create({
         color: "#FFFFFF",
         fontWeight: "regular",
         alignItems: "flex-start",
-        marginBottom: 5
+        marginBottom: 5,
+        marginTop:20,
 
     }, 
-    buttonLogin:{
+    buttonSend:{
         alignItems: "center",
         justifyContent: "center",
         backgroundColor: "#2d88e2",
@@ -107,29 +108,29 @@ const styles = StyleSheet.create({
         margin: 10,
         marginTop: 10,
     },
-    buttonTextLogin:{
+    buttonTextSend:{
         color: "#FFFFFF",
         fontSize: 18,
         fontWeight: "bold",
         textAlign: "center"
     },
-    
-
-    
-    footer: {
+    buttonCancel:{
         alignItems: "center",
         justifyContent: "center",
+        backgroundColor: "#2a2547",
         padding: 20,
-        backgroundColor: "#11111E"
+        width: "80%",
+        height: 60,
+        borderRadius: 5,
+        margin: 10,
+        marginTop: 10,
     },
-
-    TextFooter:{
-        color: "#5BC2E7",
-        fontSize: 16,
+    buttonTextCancel:{
+        color: "#FFFFFF",
+        fontSize: 18,
         fontWeight: "bold",
         textAlign: "center"
     },
-
 
 });
 

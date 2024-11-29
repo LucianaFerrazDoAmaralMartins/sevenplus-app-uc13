@@ -43,7 +43,7 @@ class HomeScreen extends Component {
                   </View>
                   <View style={ styles.footer }>
                           <Text style={ styles.TextFooter }>
-                              Privacidade e informações legais
+                          © 2024 Seven Plus. Todos os direitos reservados.
                           </Text>
                   </View>
                   </View>

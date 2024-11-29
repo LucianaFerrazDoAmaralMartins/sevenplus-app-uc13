@@ -4,6 +4,8 @@ import { createStackNavigator } from '@react-navigation/stack';
  
 import HomeScreen from "./screens/HomeScreen";
 import LoginScreen from "./screens/LoginScreen";
+import PasswordScreen from "./screens/PasswordScreen";
+
 // import PlanScreen from "./screens/PlanScreen";
 // import RegisterScreen from "./screens/RegisterScreen";
  
@@ -16,10 +18,11 @@ class App extends Component {
  
         <Stack.Navigator initialRouteName="Home">
  
-          <Stack.Screen name="Home" component={ HomeScreen } />
-          <Stack.Screen name="Login" component={ LoginScreen } /> 
-          {/* <Stack.Screen name="Plan" component={ PlanScreen } /> */}
-          {/* <Stack.Screen name="Register" component={ RegisterScreen } /> */}
+          <Stack.Screen name="Home" component={ HomeScreen } options={{headerShown:false}} />
+          <Stack.Screen name="Login" component={ LoginScreen } options={{headerShown:false}}/> 
+          <Stack.Screen name="Password" component={ PasswordScreen } options={{headerShown:false}}/> 
+          {/* <Stack.Screen name="Plan" component={ PlanScreen } options={{headerShown:false}}/> */}
+          {/* <Stack.Screen name="Register" component={ RegisterScreen } options={{headerShown:false}}/> */}
  
         </Stack.Navigator>
  
