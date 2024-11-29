@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { SafeAreaView, View, StatusBar, ScrollView, Text, Image, Button, TouchableOpacity, ImageBackground } from "react-native";
-import styles from "../assets/styles/styles-password.ts";
+import styles from "../assets/styles/styles-password";
 import { TextInput } from "react-native-gesture-handler";
 
 class PasswordScreen extends Component {
